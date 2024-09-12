@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <meta
+      name="description"
+      content="Bienvenue sur le site de Nina Carducci, photographe réputée sur Bordeaux et en Ile-de-France, pour son travail de qualité."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./assets/images/favicon.ico" />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
@@ -20,7 +24,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="./assets/maugallery.min.js" defer></script>
-    <script src="./assets/scripts.min.js" defer></script>
   </head>
   <body>
     <header class="top-header">
@@ -327,9 +330,9 @@
           </p>
           <form action="#" method="post">
             <label for="name">Nom</label>
-            <input type="text" name="nom" id="nom" />
+            <input type="text" name="nom" id="nom" required />
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" required />
             <label for="message">Message</label>
             <textarea
               name="message"
@@ -342,7 +345,7 @@
         </div>
         <div class="picture right">
           <img
-            src="./assets/images/camera.png"
+            src="./assets/images/camera.webp"
             alt="Appareil photo"
             width="418"
             height="417"
